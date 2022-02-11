@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+#container #section1{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 1px 0px 20px 0px purple;
+    background: white;
+    transform: translateY(10px);
+}
+#section1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: purple;
+    font-size: 40px;
+}
+#section1 .title{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+
+}
+#section1 p{
+    margin-bottom: 0px;
+    margin-top: 9px;
+    width: 150px;
+    float: left;
+    color: purple;
+}
+#section1 .input{
+    width: 60%;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 0px 10px 0px #7a7a7a;
+}
+#section1 .icon{
+    text-align: center;
+    cursor: pointer;
+}
+.icon img{
+    border-bottom-left-radius: 51%;
+    border-bottom-right-radius: 51%;
+    border-top-left-radius: 51%;
+    border-top-right-radius: 51%;
+    background: blue;
+}
+#section1 .button{
+    margin-left: 180px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background: #bd59d7;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 1px 0px 10px 0px #7a7a7a;
+}
